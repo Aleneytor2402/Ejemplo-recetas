@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3e7; /* Color crema suave */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #d2691e; /* Marrón */
+    color: white;
+    padding: 20px;
+}
+
+/* Secciones */
+section {
+    background-color: #fff8dc; /* Color amarillo claro */
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de ingredientes */
+ul {
+    text-align: left;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #d2691e;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
